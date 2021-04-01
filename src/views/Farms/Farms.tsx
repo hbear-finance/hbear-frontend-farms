@@ -94,13 +94,13 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn EGG')
+            TranslateString(10002, 'Stake tokens to earn hBEAR')
             :
-          TranslateString(320, 'Stake LP tokens to earn EGG')
+          TranslateString(320, 'Stake LP tokens to earn hBEAR')
         }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback EGG')}
+        {TranslateString(10000, 'Deposit Fee will be used to buyback hBEAR')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
