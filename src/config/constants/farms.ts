@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'hBEAR-BUSD LP',
+    lpSymbol: 'sBEAR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xcC280402edE4B3F8A31A16dfBcD4ac28ddd54268',
+      56: '0x576406e8710F37dD071b28D8A6B2F8aE7b898CdD',
     },
-    tokenSymbol: 'hBEAR',
+    tokenSymbol: 'sBEAR',
     tokenAddresses: {
       97: '',
-      56: '0x2c573649Dd2A19Bd21ccC9634A6cBc141926b048',
+      56: '0x480713711C68aCfC6341Df8c53ef32f83990cd05',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'hBEAR-BNB LP',
+    lpSymbol: 'sBEAR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xB6a8Ce6dfAcA3d5288C9b4C4F67d8b606532018a',
+      56: '0x6dB1894F3b310c3154a7Fe2e9B8D143522e56084',
     },
-    tokenSymbol: 'hBEAR',
+    tokenSymbol: 'sBEAR',
     tokenAddresses: {
       97: '',
-      56: '0x2c573649Dd2A19Bd21ccC9634A6cBc141926b048',
+      56: '0x480713711C68aCfC6341Df8c53ef32f83990cd05',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -54,15 +54,15 @@ const farms: FarmConfig[] = [
     pid: 3,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'hBEAR',
+    lpSymbol: 'sBEAR',
     lpAddresses: {
       97: '',
-      56: '0xcC280402edE4B3F8A31A16dfBcD4ac28ddd54268', // hBEAR-BUSD LP
+      56: '0x576406e8710F37dD071b28D8A6B2F8aE7b898CdD', // sBEAR-BUSD LP
     },
-    tokenSymbol: 'hBEAR',
+    tokenSymbol: 'sBEAR',
     tokenAddresses: {
       97: '',
-      56: '0x2c573649Dd2A19Bd21ccC9634A6cBc141926b048',
+      56: '0x480713711C68aCfC6341Df8c53ef32f83990cd05',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
