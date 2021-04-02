@@ -2,7 +2,7 @@
   {
     "inputs": [
       {
-        "internalType": "contract HONEYbear",
+        "internalType": "contract yBEARSwap",
         "name": "_egg",
         "type": "address"
       },
@@ -214,7 +214,7 @@
     "name": "egg",
     "outputs": [
       {
-        "internalType": "contract HONEYbear",
+        "internalType": "contract yBEARSwap",
         "name": "",
         "type": "address"
       }
