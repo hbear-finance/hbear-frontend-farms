@@ -35,6 +35,54 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 11,
+    risk: 5,
+    lpSymbol: 'yBEAR-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xDc7293476B58d901B132367D378295237CE65c57',
+    },
+    tokenSymbol: 'yBEAR',
+    tokenAddresses: {
+      97: '',
+      56: '0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 12,
+    risk: 5,
+    lpSymbol: 'YBHONEY-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xD8fB0e88609c791ecf55F50CD040AE2638B14BdB',
+    },
+    tokenSymbol: 'YBHONEY',
+    tokenAddresses: {
+      97: '',
+      56: '0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 13,
+    risk: 5,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x70D8929d04b60Af4fb9B58713eBcf18765aDE422',
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      56: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 2,
     risk: 3,
     lpSymbol: 'BNB-BUSD LP',
@@ -187,7 +235,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
- 
 ]
 
 export default farms
