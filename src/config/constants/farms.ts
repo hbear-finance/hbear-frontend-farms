@@ -152,6 +152,41 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+
+  {
+    pid: 9,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'YBEAR',
+    lpAddresses: {
+      97: '',
+      56: '0xf5F6a3C38C7234A48fF73CfB4A7B20cb9BB86Df1', // YBEAR-BUSD LP
+    },
+    tokenSymbol: 'YBEAR',
+    tokenAddresses: {
+      97: '',
+      56: '0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 10,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'YBHONEY',
+    lpAddresses: {
+      97: '',
+      56: '0x2c4bBEc3254Ce12d96eBF296F339bf3221A7F2FD', // YBHONEY-BUSD LP
+    },
+    tokenSymbol: 'YBHONEY',
+    tokenAddresses: {
+      97: '',
+      56: '0x5b147AD94f3f25f6aA94a58aBCcd6745Df36d7F7',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
  
 ]
 
