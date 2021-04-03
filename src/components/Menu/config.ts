@@ -5,7 +5,7 @@ const config: MenuEntry[] = [
     label: 'Home',
     icon: 'HomeIcon',
     href: '/',
-  },
+  }, 
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -55,6 +55,11 @@ const config: MenuEntry[] = [
         href: 'https://github.com/',
       },
     ],
+  },
+  {
+    label: 'Dashboard',
+    icon: 'HomeIcon',
+    href: 'https://ybear.surge.sh',
   },
  
 ]
