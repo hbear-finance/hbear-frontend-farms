@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.sbeardemo.cf/',
+        href: 'https://exchange.ybearswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.sbeardemo.cf/#/pool',
+        href: 'https://exchange.ybearswap.finance/#/pool',
       },
     ],
   },
@@ -52,7 +52,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/',
+        href: 'https://github.com/sbear-finance/',
       },
     ],
   },
