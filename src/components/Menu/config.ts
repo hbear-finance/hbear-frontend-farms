@@ -61,6 +61,11 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: 'https://ybear.surge.sh',
   },
+  {
+    label: 'Audit by Solidity',
+    icon: 'AuditIcon',
+    href: 'https://solidity.finance/audits/yBEAR/',
+  },
  
 ]
 
