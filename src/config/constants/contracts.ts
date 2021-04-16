@@ -27,4 +27,16 @@ export default {
     56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     97: '',
   },
+  ybear: {
+    56: '0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
+    97: '',
+  },
+  sbear: {
+    56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
+    97: '',
+  },
+  ybhoney: {
+    56: '0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
+    97: '',
+  },
 }
