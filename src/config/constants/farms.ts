@@ -117,6 +117,73 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 15,
+    risk: 5,
+    lpSymbol: 'BTCB-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x7561eee90e24f3b348e1087a005f78b4c8453524',
+    },
+    tokenSymbol: 'BTCB',
+    tokenAddresses: {
+      97: '',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 16,
+    risk: 5,
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa527a61703d82139f8a06bc30097cc9caa2df5a6',
+    },
+    tokenSymbol: 'CAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  
+  {
+    pid: 17,
+    risk: 5,
+    lpSymbol: 'yBEAR-sBEAR LP',
+    lpAddresses: {
+      97: '',
+      56: '0x20c896ccf1e75a359e59ff95d80766ee8fda303d',
+    },
+    tokenSymbol: 'sBEAR',
+    tokenAddresses: {
+      97: '',
+      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
+    },
+    quoteTokenSymbol: QuoteToken.ybear,
+    quoteTokenAdresses: contracts.ybear,
+  },
+  
+  {
+    pid: 18,
+    risk: 5,
+    lpSymbol: 'yBHONEY-sBEAR LP',
+    lpAddresses: {
+      97: '',
+      56: '0xf15ee1298b38681b285890921a4bef9f53135558',
+    },
+    tokenSymbol: 'sBEAR',
+    tokenAddresses: {
+      97: '',
+      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
+    },
+    quoteTokenSymbol: QuoteToken.ybhoney,
+    quoteTokenAdresses: contracts.ybhoney,
+  },
+  
+  {
     pid: 7,
     risk: 5,
     isTokenOnly: true,
