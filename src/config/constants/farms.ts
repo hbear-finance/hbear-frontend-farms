@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'sBEAR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x576406e8710F37dD071b28D8A6B2F8aE7b898CdD',
+      56: '0x1C25C1b17e927e1FcD0cf47bf0D1Beca0B8C6E60',
     },
     tokenSymbol: 'sBEAR',
     tokenAddresses: {
       97: '',
-      56: '0x480713711C68aCfC6341Df8c53ef32f83990cd05',
+      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,64 +24,17 @@ const farms: FarmConfig[] = [
     lpSymbol: 'sBEAR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x6dB1894F3b310c3154a7Fe2e9B8D143522e56084',
+      56: '0x9A45f6d76ac63AF67F7127702A1c5933c5C8019f',
     },
     tokenSymbol: 'sBEAR',
     tokenAddresses: {
       97: '',
-      56: '0x480713711C68aCfC6341Df8c53ef32f83990cd05',
+      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-  {
-    pid: 11,
-    risk: 5,
-    lpSymbol: 'yBEAR-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xDc7293476B58d901B132367D378295237CE65c57',
-    },
-    tokenSymbol: 'yBEAR',
-    tokenAddresses: {
-      97: '',
-      56: '0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 12,
-    risk: 5,
-    lpSymbol: 'YBHONEY-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xD8fB0e88609c791ecf55F50CD040AE2638B14BdB',
-    },
-    tokenSymbol: 'YBHONEY',
-    tokenAddresses: {
-      97: '',
-      56: '0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 13,
-    risk: 5,
-    lpSymbol: 'ETH-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x70D8929d04b60Af4fb9B58713eBcf18765aDE422',
-    },
-    tokenSymbol: 'ETH',
-    tokenAddresses: {
-      97: '',
-      56: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
+ 
   {
     pid: 2,
     risk: 3,
@@ -98,6 +51,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+{
+    pid: 6,
+    risk: 5,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x70D8929d04b60Af4fb9B58713eBcf18765aDE422',
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      56: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
   {
     pid: 3,
     risk: 5,
@@ -105,18 +74,50 @@ const farms: FarmConfig[] = [
     lpSymbol: 'sBEAR',
     lpAddresses: {
       97: '',
-      56: '0x576406e8710F37dD071b28D8A6B2F8aE7b898CdD', // sBEAR-BUSD LP
+      56: '0x1C25C1b17e927e1FcD0cf47bf0D1Beca0B8C6E60', // sBEAR-BUSD LP
     },
     tokenSymbol: 'sBEAR',
     tokenAddresses: {
       97: '',
-      56: '0x480713711C68aCfC6341Df8c53ef32f83990cd05',
+      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-   {
+    {
     pid: 4,
+    risk: 5,
+    lpSymbol: 'yBEAR-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xDc7293476B58d901B132367D378295237CE65c57',
+    },
+    tokenSymbol: 'yBEAR',
+    tokenAddresses: {
+      97: '',
+      56: '0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 5,
+    risk: 5,
+    lpSymbol: 'YBHONEY-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xD8fB0e88609c791ecf55F50CD040AE2638B14BdB',
+    },
+    tokenSymbol: 'YBHONEY',
+    tokenAddresses: {
+      97: '',
+      56: '0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 7,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'BNB',
@@ -132,8 +133,9 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  
     {
-    pid: 5,
+    pid: 8,
     risk: 4,
     isTokenOnly: true,
     lpSymbol: 'CAKE',
@@ -149,8 +151,9 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-    {
-    pid: 6,
+  
+      {
+    pid: 9,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'BTCB',
@@ -166,8 +169,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-    {
-    pid: 7,
+      {
+    pid: 10,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'DAI',
@@ -183,8 +186,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  {
-    pid: 8,
+    {
+    pid: 11,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'DOT',
@@ -200,26 +203,9 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-
-  {
-    pid: 9,
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'YBEAR',
-    lpAddresses: {
-      97: '',
-      56: '0xf5F6a3C38C7234A48fF73CfB4A7B20cb9BB86Df1', // YBEAR-BUSD LP
-    },
-    tokenSymbol: 'YBEAR',
-    tokenAddresses: {
-      97: '',
-      56: '0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 10,
+  
+    {
+    pid: 12,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'YBHONEY',
@@ -235,6 +221,43 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  
+  {
+    pid: 13,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'BUSD',
+    lpAddresses: {
+      97: '',
+      56: '0x1C25C1b17e927e1FcD0cf47bf0D1Beca0B8C6E60', // SBEAR-BUSD LP
+    },
+    tokenSymbol: 'BUSD',
+    tokenAddresses: {
+      97: '',
+      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  
+  {
+    pid: 14,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'BAKE',
+    lpAddresses: {
+      97: '',
+      56: '0xe2d1b285d83efb935134f644d00fb7c943e84b5b', // BAKE-BUSD LP
+    },
+    tokenSymbol: 'BAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+    
 ]
 
 export default farms
