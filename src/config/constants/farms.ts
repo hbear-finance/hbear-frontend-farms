@@ -183,6 +183,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.ybhoney,
   },
   
+    {
+    pid: 19,
+    risk: 5,
+    lpSymbol: 'BAKE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x3Da30727ed0626b78C212e81B37B97A8eF8A25bB',
+    },
+    tokenSymbol: 'BAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  
   {
     pid: 7,
     risk: 5,
