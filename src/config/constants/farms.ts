@@ -142,13 +142,13 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x20c896ccf1e75a359e59ff95d80766ee8fda303d',
     },
-    tokenSymbol: 'sBEAR',
+    tokenSymbol: 'yBEAR',
     tokenAddresses: {
       97: '',
-      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
+      56: '0xa8da060ebd32a753005c6ee476a0d79177c6ea8b',
     },
-    quoteTokenSymbol: QuoteToken.ybear,
-    quoteTokenAdresses: contracts.ybear,
+    quoteTokenSymbol: QuoteToken.sbear,
+    quoteTokenAdresses: contracts.sbear,
   },
   
     {
