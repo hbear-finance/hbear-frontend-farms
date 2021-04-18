@@ -151,7 +151,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.ybear,
   },
   
-  {
+    {
     pid: 18,
     risk: 5,
     lpSymbol: 'yBHONEY-sBEAR LP',
@@ -159,13 +159,13 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xf15ee1298b38681b285890921a4bef9f53135558',
     },
-    tokenSymbol: 'sBEAR',
+    tokenSymbol: 'yBHONEY',
     tokenAddresses: {
       97: '',
-      56: '0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305',
+      56: '0x5b147AD94f3f25f6aA94a58aBCcd6745Df36d7F7',
     },
-    quoteTokenSymbol: QuoteToken.ybhoney,
-    quoteTokenAdresses: contracts.ybhoney,
+    quoteTokenSymbol: QuoteToken.sbear,
+    quoteTokenAdresses: contracts.sbear,
   },
   
     {
