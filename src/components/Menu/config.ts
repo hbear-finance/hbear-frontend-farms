@@ -67,6 +67,11 @@ const config: MenuEntry[] = [
     href: 'https://solidity.finance/audits/yBEAR/',
   },
   {
+    label: 'yBEAR Website',
+    icon: 'GroupsIcon',
+    href: 'https://ybear.finance',
+  },
+  {
     label: 'Sbear Whitepaper',
     icon: 'InfoIcon',
     href: 'https://www.ybearswap.finance/sbear.pdf',
