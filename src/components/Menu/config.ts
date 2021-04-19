@@ -110,12 +110,7 @@ const config: MenuEntry[] = [
     ],
   },
   
-  
-  {
-    label: 'Dashboard',
-    icon: 'HomeIcon',
-    href: 'https://ybear.surge.sh',
-  },
+ 
   {
     label: 'Solid Group',
     icon: 'AuditIcon',
