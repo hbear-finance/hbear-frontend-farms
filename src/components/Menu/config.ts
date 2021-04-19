@@ -30,23 +30,98 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/nests',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
+ 
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
   //   href: '/lottery',
   // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
  
   {
+    label: 'sBEAR INFO',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'BUY sBEAR',
+        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
+      },
+	  {
+        label: 'sBEAR CONTRACT',
+        href: 'https://bscscan.com/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
+      },
+	  {
+        label: 'sBEAR CHART',
+        href: 'https://dex.guru/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305-bsc',
+      },
+	  {
+		label: 'Sbear Whitepaper',
+		href: 'https://www.ybearswap.finance/sbear.pdf',
+	  },
+    ],
+  },
+  
+  {
+    label: 'yBEAR  INFO',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'BUY yBEAR',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
+      },
+	  {
+        label: 'yBEAR CONTRACT',
+        href: 'https://bscscan.com/token/0xa8da060ebd32a753005c6ee476a0d79177c6ea8b',
+      },
+	  {
+        label: 'yBEAR CHART',
+        href: 'https://dex.guru/token/0xa8da060ebd32a753005c6ee476a0d79177c6ea8b-bsc',
+      },
+	  {
+		label: 'yBEAR Whitepaper',
+		href: 'https://www.ybearswap.finance/ybear.pdf',
+	  },
+	    {
+		label: 'yBEAR Website',
+		href: 'https://ybear.finance',
+	  },
+    ],
+  },
+  
+    {
+    label: 'yBHONEY INFO',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'yBHONEY yBEAR',
+        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
+      },
+	  {
+        label: 'yBHONEY CONTRACT',
+        href: 'https://bscscan.com/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
+      },
+	  {
+        label: 'yBHONEY CHART',
+        href: 'https://dex.guru/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7-bsc',
+      },
+	  {
+		label: 'yBHONEY Whitepaper',
+		href: 'https://www.ybearswap.finance/ybear.pdf',
+	  },
+    ],
+  },
+  
+  
+  {
+    label: 'Dashboard',
+    icon: 'HomeIcon',
+    href: 'https://ybear.surge.sh',
+  },
+  {
+    label: 'Solid Group',
+    icon: 'AuditIcon',
+    href: 'https://www.ybearswap.finance/ybear_audit.pdf',
+  }, 
+    {
     label: 'More',
     icon: 'MoreIcon',
     items: [
@@ -56,32 +131,6 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Dashboard',
-    icon: 'HomeIcon',
-    href: 'https://ybear.surge.sh',
-  },
-  {
-    label: 'Audit by Solidity',
-    icon: 'AuditIcon',
-    href: 'https://www.ybearswap.finance/ybear_audit.pdf',
-  },
-  {
-    label: 'yBEAR Website',
-    icon: 'GroupsIcon',
-    href: 'https://ybear.finance',
-  },
-  {
-    label: 'Sbear Whitepaper',
-    icon: 'InfoIcon',
-    href: 'https://www.ybearswap.finance/sbear.pdf',
-  },
-  {
-    label: 'Ybear Whitepaper',
-    icon: 'InfoIcon',
-    href: 'https://www.ybearswap.finance/ybear.pdf',
-  },
- 
 ]
 
 export default config
