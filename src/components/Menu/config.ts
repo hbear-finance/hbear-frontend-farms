@@ -103,10 +103,7 @@ const config: MenuEntry[] = [
         label: 'yBHONEY CHART',
         href: 'https://dex.guru/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7-bsc',
       },
-	  {
-		label: 'yBHONEY Whitepaper',
-		href: 'https://www.ybearswap.finance/ybear.pdf',
-	  },
+ 
     ],
   },
   
