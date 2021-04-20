@@ -53,10 +53,10 @@ const config: MenuEntry[] = [
         label: 'sBEAR CHART',
         href: 'https://dex.guru/token/0xdec858d5ee93568ce4ea5bbf9169cea23d2de305-bsc',
       },
-	  {
-		label: 'Sbear Whitepaper',
-		href: 'https://ybear.finance/YBEARSWAP_WHITEPAPER.pdf',
-	  },
+      {
+	  label: 'sBEAR Whitepaper',
+	  href: 'https://ybear.finance/YBEARSWAP_WHITEPAPER.pdf',
+      },
     ],
   },
   
@@ -92,18 +92,25 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'yBHONEY yBEAR',
+        label: 'BUY yBHONEY',
         href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
       },
 	  {
         label: 'yBHONEY CONTRACT',
         href: 'https://bscscan.com/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
       },
-	  {
+     {
         label: 'yBHONEY CHART',
         href: 'https://dex.guru/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7-bsc',
       },
- 
+      {
+        label: 'Coingecko',
+        href: 'https://www.coingecko.com/en/coins/yield-bear',
+      },
+      {
+        label: 'Coinmarketcap',
+        href: 'https://coinmarketcap.com/currencies/ybear-finance/',
+      },
     ],
   },
   
