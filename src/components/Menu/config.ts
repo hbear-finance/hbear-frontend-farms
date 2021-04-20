@@ -55,7 +55,7 @@ const config: MenuEntry[] = [
       },
 	  {
 		label: 'Sbear Whitepaper',
-		href: 'https://www.ybearswap.finance/sbear.pdf',
+		href: 'https://ybear.finance/YBEARSWAP_WHITEPAPER.pdf',
 	  },
     ],
   },
@@ -78,7 +78,7 @@ const config: MenuEntry[] = [
       },
 	  {
 		label: 'yBEAR Whitepaper',
-		href: 'https://www.ybearswap.finance/ybear.pdf',
+		href: 'https://ybear.finance/wp-content/uploads/2021/03/Ybear-Whitepaper.pdf',
 	  },
 	    {
 		label: 'yBEAR Website',
