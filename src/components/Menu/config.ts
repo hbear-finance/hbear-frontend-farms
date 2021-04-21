@@ -84,6 +84,14 @@ const config: MenuEntry[] = [
 		label: 'yBEAR Website',
 		href: 'https://ybear.finance',
 	  },
+	          {
+        label: 'Coingecko',
+        href: 'https://www.coingecko.com/en/coins/yield-bear',
+      },
+      {
+        label: 'Coinmarketcap',
+        href: 'https://coinmarketcap.com/currencies/ybear-finance/',
+      },
     ],
   },
   
@@ -103,14 +111,7 @@ const config: MenuEntry[] = [
         label: 'yBHONEY CHART',
         href: 'https://dex.guru/token/0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7-bsc',
       },
-      {
-        label: 'Coingecko',
-        href: 'https://www.coingecko.com/en/coins/yield-bear',
-      },
-      {
-        label: 'Coinmarketcap',
-        href: 'https://coinmarketcap.com/currencies/ybear-finance/',
-      },
+
     ],
   },
   
