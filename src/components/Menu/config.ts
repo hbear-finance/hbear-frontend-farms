@@ -43,7 +43,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'BUY sBEAR',
-        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
+        href: 'https://exchange.ybearswap.finance/#/swap?inputCurrency=0xdec858d5ee93568ce4ea5bbf9169cea23d2de305',
       },
 	  {
         label: 'sBEAR CONTRACT',
