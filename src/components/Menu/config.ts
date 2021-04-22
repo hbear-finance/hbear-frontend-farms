@@ -66,7 +66,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'BUY yBEAR',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
+        href: 'https://exchange.ybearswap.finance/#/swap?outputCurrency=0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b',
       },
 	  {
         label: 'yBEAR CONTRACT',
@@ -101,7 +101,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'BUY yBHONEY',
-        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
+        href: 'https://exchange.ybearswap.finance/#/swap?inputCurrency=0x5b147ad94f3f25f6aa94a58abccd6745df36d7f7',
       },
 	  {
         label: 'yBHONEY CONTRACT',
