@@ -342,6 +342,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 21,
+    risk: 5,
+    lpSymbol: 'PIG-sBEAR LP',
+    lpAddresses: {
+      97: '',
+      56: '0x2559093db102ea8144a88da25bba15b58b22523b',
+    },
+    tokenSymbol: 'PIG',
+    tokenAddresses: {
+      97: '',
+      56: '0x8850d2c68c632e3b258e612abaa8fada7e6958e5',
+    },
+    quoteTokenSymbol: QuoteToken.sbear,
+    quoteTokenAdresses: contracts.sbear,
+  },
     
 ]
 
