@@ -61,9 +61,7 @@ const TicketCard: React.FC<CardProps> = ({ isSecondCard = false }) => {
     <StyledCard isSecondCard={isSecondCard}>
       <CardBody>
         <CardHeader>
-          <IconWrapper>
-            <TicketRound />
-          </IconWrapper>
+          <img src="images/ticket.png" alt="logo" width="50" />
           {lotteryHasDrawn ? (
             <TicketCountWrapper>
               <Text fontSize="14px" color="textSubtle">
