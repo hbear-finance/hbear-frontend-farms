@@ -31,11 +31,11 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
  
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
+   {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
+   },
  
   {
     label: 'sBEAR INFO',
