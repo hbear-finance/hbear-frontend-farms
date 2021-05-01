@@ -45,7 +45,7 @@ const LotteryProgress = () => {
     <ProgressWrapper>
         <BottomTextWrapper>
           <Text fontSize="20px" bold color="contrast">
-            {TranslateString(0, 'Upcoming Draw :  5/12/2021 19:00:00 UTC')}
+            {TranslateString(0, 'Upcoming Draw :  5/4/2021 16:00:00 UTC')}
           </Text>
         </BottomTextWrapper>
     </ProgressWrapper>
