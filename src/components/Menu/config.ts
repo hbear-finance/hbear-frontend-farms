@@ -36,7 +36,7 @@ const config: MenuEntry[] = [
   {
     label: 'Farms V2',
     icon: 'FarmIcon',
-    href: 'https://v2ybearswap.finance/farms',
+    href: 'https://v2.ybearswap.finance/farms',
   },
   {
     label: 'Stakes',
