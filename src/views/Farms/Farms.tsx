@@ -100,7 +100,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Please remove from v1 and migrate to farm v2')}
+        Please remove from v1 and migrate to farm v2
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
