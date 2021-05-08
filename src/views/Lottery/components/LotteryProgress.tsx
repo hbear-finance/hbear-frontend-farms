@@ -46,7 +46,7 @@ const LotteryProgress = () => {
 	<Progress primaryStep={getLotteryDrawStep(currentMillis)} secondaryStep={getTicketSaleStep()} showProgressBunny />
         <BottomTextWrapper>
           <Text fontSize="20px" bold color="contrast">
-            {TranslateString(0, 'Upcoming Draw :  8/4/2021 16:00:00 UTC')}
+            {TranslateString(0, 'Upcoming Draw :  13/5/2021 16:00:00 UTC')}
           </Text>
         </BottomTextWrapper>
     </ProgressWrapper>
