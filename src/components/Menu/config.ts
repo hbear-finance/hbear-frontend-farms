@@ -41,7 +41,7 @@ const config: MenuEntry[] = [
   {
     label: 'Stakes',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: 'https://v2.ybearswap.finance/nests',
   },
  
    {
