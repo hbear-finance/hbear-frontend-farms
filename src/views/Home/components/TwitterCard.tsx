@@ -40,7 +40,9 @@ const TwitterCard = () => {
           options={{
             height: '300',
             chrome: "noheader, nofooter",
-            width: "400"
+            width: "400",
+            theme: "dark",
+			      borderColor: "#27262c",
           }}
         />
       </CardBody>
