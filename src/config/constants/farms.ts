@@ -116,24 +116,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 16,
-    risk: 5,
-    lpSymbol: 'CAKE-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xa527a61703d82139f8a06bc30097cc9caa2df5a6',
-    },
-    tokenSymbol: 'CAKE',
-    tokenAddresses: {
-      97: '',
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  
+  },  
   {
     pid: 17,
     risk: 5,
