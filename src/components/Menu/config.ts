@@ -142,6 +142,10 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: 'https://github.com/sbear-finance/',
       },
+      {
+        label: 'Doc',
+        href: 'https://ybearswap.gitbook.io/ybearswap/',
+      },
     ],
   },
 ]
