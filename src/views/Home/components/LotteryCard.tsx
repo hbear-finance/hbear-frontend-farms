@@ -7,10 +7,11 @@ import useI18n from 'hooks/useI18n'
 import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
 import useTokenBalance from 'hooks/useTokenBalance'
 import { useMultiClaimLottery } from 'hooks/useBuyLottery'
-import { useTotalClaim } from 'hooks/useTickets'
+import { useTotalClaim,useTotalRewards } from 'hooks/useTickets'
 import BuyModal from 'views/Lottery/components/TicketCard/BuyTicketModal'
 import CakeWinnings from './CakeWinnings'
 import LotteryJackpot from './LotteryJackpot'
+import { usePriceCakeBusd } from '../../../state/hooks'
 
 const StyledLotteryCard = styled(Card)`
   background-image: url('/images/ticket_home.png');
@@ -47,7 +48,8 @@ const FarmedStakingCard = () => {
   const { claimAmount } = useTotalClaim()
   const { onMultiClaim } = useMultiClaimLottery()
   const cakeBalance = useTokenBalance(getCakeAddress())
-
+ const bearPrice = usePriceCakeBusd().toNumber()
+	
   const handleClaim = useCallback(async () => {
     try {
       setRequestedClaim(true)
@@ -77,6 +79,9 @@ const FarmedStakingCard = () => {
         <Block>
           <LotteryJackpot />
           <Label>{TranslateString(554, 'Total jackpot this round')}</Label>
+		  <Label>~${(getBalanceNumber(useTotalRewards()) * bearPrice).toLocaleString(undefined, {
+        maximumFractionDigits: 2,
+      })}</Label>
         </Block>
         <Actions>
           <Button
