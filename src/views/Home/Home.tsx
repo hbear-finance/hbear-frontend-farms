@@ -11,7 +11,6 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/bear/3.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,7 +22,6 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/bear/3.png'), url('/images/bear/3b.png');
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
