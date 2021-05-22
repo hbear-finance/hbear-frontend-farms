@@ -20,6 +20,7 @@ const StyledFarmStakingCard = styled(Card)`
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
+  box-shadow: 0 0 10px 2px #97B6D0;
 `
 
 const Block = styled.div`
@@ -31,7 +32,7 @@ const CardImage = styled.img`
 `
 
 const Label = styled.div`
-  color: ${({ theme }) => theme.colors.textSubtle};
+  color: #FF6518;
   font-size: 14px;
 `
 
@@ -64,7 +65,9 @@ const FarmedStakingCard = () => {
       setPendingTx(false)
     }
   }, [onReward])
-
+		
+		 
+		 
   return (
     <StyledFarmStakingCard>
       <CardBody>
