@@ -29,7 +29,7 @@ const CardImage = styled.img`
 `
 
 const Label = styled.div`
-  color: ${({ theme }) => theme.colors.textSubtle};
+  color: #FF6518;;
   font-size: 14px;
 `
 
@@ -73,12 +73,12 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/ticket.png" alt="sBEAR logo" width={64} height={64} />
         <Block>
+		<Label>{TranslateString(552, 'sBEAR to Collect')}</Label>
           <CakeWinnings />
-          <Label>{TranslateString(552, 'sBEAR to Collect')}</Label>
         </Block>
         <Block>
+		<Label>{TranslateString(554, 'Total jackpot this round')}</Label>
           <LotteryJackpot />
-          <Label>{TranslateString(554, 'Total jackpot this round')}</Label>
 		  <Label>~${(getBalanceNumber(useTotalRewards()) * bearPrice).toLocaleString(undefined, {
         maximumFractionDigits: 2,
       })}</Label>
